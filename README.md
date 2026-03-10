@@ -73,11 +73,13 @@ Tools : VS Code
 Furthermore, the majority of passengers booked Economy class tickets rather than Business class, showing that most travelers prefer cost-effective travel options.
 
 **Business Insights :**
+
 *1. Premium airlines tend to charge higher fares due to better services and premium seating options.*
 *2. Airlines may lower prices to avoid empty seats.*
 *3. Seat class is a major driver of ticket price variation.*
 
-#### Machine Learning Models 
+#### Machine Learning Models :
+
 The following models are implemented and evaluated :
 
 - Linear Regression
@@ -85,6 +87,7 @@ The following models are implemented and evaluated :
 - Random Forest Regressor
 
 #### Model Evaluation :
+
 Model performance was evaluated using the following metrics:
 
 - R² Score
@@ -93,6 +96,7 @@ Model performance was evaluated using the following metrics:
 - Root Mean Squared Error (RMSE)
 
 #### Results :
+
 **Random Forest Regressor** performed the best. It achieved the highest R2 score ~ 0.98% and the lowest prediction errors, indicating superior predictive performance. The model successfully captured complex relationships within the dataset and significantly reduced prediction errors compared to other models.
 
 #### Visualizations :
