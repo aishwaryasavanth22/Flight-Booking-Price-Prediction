@@ -11,15 +11,17 @@ Airfare prices fluctuate based on multiple factors such as airline, departure ti
 
 The dataset used in this project contains flight booking details including:
 
-- Airline
-- Date of Journey
-- Source
-- Destination
-- Route
-- Duration
-- Total Stops
-- Additional Information
-- Ticket Price (Target Variable)
+- `Airline`         :  Name of the Airline Company.
+- `Flight`          :  Plane's flight code
+- `Source City`     :  City from which the flight takes off.
+- `Departure Time`  :  Time of Departure
+- `Stops`           :  Number of stops between the source and destination cities
+- `Arrival Time`    :  Time of Arrival
+- `Destination City`:  City where the flight will land.
+- `Class`           :  Contains information on seat class.
+- `Duration`        :  Overall amount of time taken to travel between cities in hours.
+- `Days left`       :  Subtracting the trip date by the booking data
+- `Price`           :  Ticket Price.
 
 The dataset was preprocessed and cleaned before building machine learning models.
 
@@ -94,6 +96,16 @@ Model performance was evaluated using the following metrics:
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
+
+#### Model Comparison :
+
+## Model Comparison
+
+| Model             | R² Score | MAE  | RMSE |
+|-------------------|----------|------|------|
+| Linear Regression | 0.90%    | 4627 | 7014 |
+| Decision Tree     | 0.97%    | 1310 | 3790 |
+| Random Forest     | 0.98%    | 1194 | 2987 |
 
 #### Results :
 
